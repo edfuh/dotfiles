@@ -1,0 +1,28 @@
+{
+  "devel" : true,
+  "browser" : true,
+  "onevar" : true,
+  "sloppy" : true,
+  "curly" : true,
+  "evil" : true,
+  "strict" : true,
+  "eqeqeq" : true,
+  "trailing" : true,
+  "white" : true,
+  "latedef" : true,
+  "undef" : true,
+  "immed" : true,
+  "newcap" : true,
+  "maxerr" : 20,
+  "indent" : 2,
+  "jquery" : true,
+
+  "predef" : [
+    "jQuery",
+    "Storenvy",
+    "Sea",
+    "_",
+    "define",
+    "require"
+  ]
+}

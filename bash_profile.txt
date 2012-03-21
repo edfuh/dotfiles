@@ -1,0 +1,26 @@
+export CC=gcc-4.2
+export NODE_PATH="/usr/local/lib/node:/usr/local/lib/node_modules"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
+
+SE_PATH=~/Sites/storenvy
+
+alias se="cd $SE_PATH"
+alias rc="rails console"
+alias d='git diff --color '
+alias s='git status -s'
+
+alias desk='cd ~/Desktop'
+alias ll="ls -FlAt"
+alias l='ll'
+alias linecount='wc -l `find ./ -type f`'
+alias ..="cd .."
+alias gti="git"
+alias gs='git status'
+alias gad='git add -i'
+alias flog="tail -f $SE_PATH/log/development.log"
+
+source /usr/local/etc/bash_completion.d/git-completion.bash
+
+[[ -s "/Users/edfuh/.rvm/scripts/rvm" ]] && source "/Users/edfuh/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+export EDITOR='mate -w'
